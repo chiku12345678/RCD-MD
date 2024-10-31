@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
-      matrix:
+     matrix:
         node-version: [20.x]
 
     steps:
@@ -31,6 +31,4 @@ name: Install dependencies
 
 name: Start application
       run: npm start
-
-
 
